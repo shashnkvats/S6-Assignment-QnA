@@ -35,7 +35,7 @@ The total loss E<sub>tot</sub> is the sum of E<sub>1</sub> and E<sub>2</sub>.
 2. **Extremely Large Learning Rate**: If the learning rate is too large, the steps will also be large. This can cause the learning process to overshoot the minimum of the loss function and potentially result in divergence, meaning the network fails to learn. In the worst case, the loss function could become NaN (Not a Number), a situation known as "exploding gradients". This is usually a sign that the learning rate is too high.
 
 <p>Hence, care must be taken while chosing the learning rate.</p>
-<bold> The images showing the effect of change in Loss wrt LR is presnt in repo.</bold>
+![Screenshot](learning_rate_variation.png)
 
 
 ## Backpropagation
